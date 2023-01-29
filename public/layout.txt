@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <style>
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 20px;
+        }
+        #button1{
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 20px;
+        }
+        .myFirstClass {
+            background-color: darkorchid;
+            color: white;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<p style="color: yellow; font-size: 30px">hello world one</p>
+<p style="color: black; font-size: 30px">hello world one >hello world two</p>
+<p style="color: blue; font-size: 30px">hello world one>hello world three</p>
+
+<button id="button1">click me 1</button>
+<button class="myFirstClass"> click me 2</button>
+<button class="myFirstClass"> click me 3</button>
+<button> click me 4</button>
+<button> click me 5</button>
+
+
+<img src="../assests/trialimage.jpg" height="200" width="200" id= "image1"/>
+<img src="../assests/trialimage.jpg" height="200" width="200" class= "image2"/>
+<img src="../assests/trialimage.jpg" height="200" width="200" class= image2"/>
+<img src="../assests/trialimage.jpg" height="200" width="200" class="myFirstImage"/>
+<img src="../assests/trialimage.jpg" height="200" width="200"/>
+
+
+
+
+
+</body>
+</html>
