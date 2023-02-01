@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <title>FlexBox</title>
+    <style>
+
+        .flex-container{
+            display: flex;
+            background-color: darkblue;
+            height: 100px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: stretch;
+            align-items: stretch;
+
+
+        }
+.flex-container div> {
+            background-color: indianred;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+}
+    #item1{
+        background-color: red;
+        padding: 20px;
+        margin: 10px;
+        order: 4;
+    }
+     #item1{
+        background-color: red;
+        padding: 20px;
+        margin: 10px;
+         order: 2;
+    }
+     #item2{
+        background-color: beige;
+        padding: 20px;
+        margin: 10px;
+         order: 3;
+    }
+     #item3{
+        background-color: yellow;
+        padding: 20px;
+        margin: 10px;
+    }
+     #item4{
+        background-color: purple;
+        padding: 20px;
+        margin: 10px;
+         order: 1;
+    }
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="flex-container">
+        <div id ="item1">1</div>
+        <div id ="item2">2</div>
+        <div id="item3">3</div>
+        <div id="item4">4</div>
+
+
+
+
+    </div>
+</body>
+</html>
